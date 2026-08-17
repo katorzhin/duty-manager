@@ -11,8 +11,6 @@ services:
       POSTGRES_DB: duty_db
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      JWT_SECRET: ${JWT_SECRET}
-      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
 
     ports:
       - "5432:5432"
@@ -39,6 +37,8 @@ services:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/duty_db
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: postgres
+      JWT_SECRET: ${JWT_SECRET}
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
 
   frontend:
 
