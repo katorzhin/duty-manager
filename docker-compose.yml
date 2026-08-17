@@ -11,6 +11,8 @@ services:
       POSTGRES_DB: duty_db
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
+      JWT_SECRET: ${JWT_SECRET}
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
 
     ports:
       - "5432:5432"
