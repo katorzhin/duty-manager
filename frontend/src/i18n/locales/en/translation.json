@@ -1,0 +1,188 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "filters": "Filters",
+    "date": "Date",
+    "actions": "Actions",
+    "rowsPerPage": "Rows per page",
+    "from": "From",
+    "to": "To"
+  },
+  "userMenu": {
+    "changePassword": "Change Password",
+    "logout": "Logout",
+    "passwordChanged": "Password changed successfully",
+    "passwordChangeFailed": "Failed to change password"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "employees": "Employees",
+    "duties": "Duties",
+    "upload": "Upload",
+    "notifications": "Notifications",
+    "users": "Users",
+    "auditLogs": "Audit Logs"
+  },
+  "duties": {
+    "employees": "Employees",
+    "title": "Duty Schedule",
+    "add": "Add Duty",
+    "generate": "Generate Duties",
+    "created": "Duty created successfully",
+    "updated": "Duty updated successfully",
+    "deleted": "Duty deleted successfully",
+    "createFailed": "Failed to create duty",
+    "deleteFailed": "Failed to delete duty",
+    "deleteTitle": "Delete Duty",
+    "deleteMessage": "Delete duty for {{date}}?",
+    "noData": "No duties found"
+  },
+  "generateDuty": {
+    "title": "Generate Duties",
+    "startDate": "Start date",
+    "days7": "7 days",
+    "days14": "14 days",
+    "days30": "30 days",
+    "custom": "Custom",
+    "numberOfDays": "Number of days",
+    "employeesPerDuty": "Employees per duty",
+    "configureRotation": "Configure Rotation",
+    "editRotation": "Edit Rotation ✓",
+    "generate": "Generate"
+  },
+  "dutyDialog": {
+    "addTitle": "Add Duty",
+    "editTitle": "Edit Duty",
+    "employees": "Employees"
+  },
+  "rotationDialog": {
+    "title": "Налаштування ротації"
+  },
+  "employees": {
+    "title": "Employees",
+    "name": "Name",
+    "email": "Email",
+    "status": "Status",
+    "add": "Add Employee",
+    "created": "Employee created successfully",
+    "updated": "Employee updated successfully",
+    "deleted": "Employee deleted successfully",
+    "deleteTitle": "Delete Employee",
+    "deleteMessage": "Delete {{name}}?",
+    "noData": "No employees found",
+    "deleteFailed": "Delete failed"
+  },
+  "employeeDialog": {
+    "addTitle": "Add Employee",
+    "editTitle": "Edit Employee",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "upload": {
+    "title": "Upload Schedule",
+    "subtitle": "Upload an Excel file containing duty schedules.",
+    "chooseFile": "Choose File",
+    "upload": "Upload Schedule",
+    "uploading": "Uploading...",
+    "uploadFailed": "Failed to upload schedule",
+    "replaceFailed": "Failed to replace schedule"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "Send a message to all Telegram subscribers.",
+    "message": "Message",
+    "characters": "characters",
+    "send": "Send Notification",
+    "sendConfirm": "Send",
+    "sendTitle": "Send Notification",
+    "sendMessage": "Send this notification to all subscribers?",
+    "automatic": "Automatic Notifications",
+    "templates": "Notification Templates",
+    "sent": "Notification sent successfully",
+    "sendFailed": "Failed to send notification"
+  },
+  "notificationSettings": {
+    "title": "Automatic Notifications",
+    "enabled": "Enabled",
+    "once": "Once",
+    "twice": "Twice",
+    "firstNotification": "First notification",
+    "secondNotification": "Second notification"
+  },
+  "notificationTemplates": {
+    "title": "Notification Templates",
+    "today": "Today",
+    "schedule": "Schedule",
+    "todayTemplate": "Today Template",
+    "scheduleTemplate": "Schedule Template",
+    "nextDuties": "Next Duties"
+  },
+  "users": {
+    "title": "Users",
+    "subtitle": "Manage application users.",
+    "add": "Add User",
+    "email": "Email",
+    "role": "Role",
+    "created": "User created successfully",
+    "updated": "User updated successfully",
+    "deleted": "User deleted successfully",
+    "saveFailed": "Failed to save user",
+    "deleteFailed": "Failed to delete user",
+    "deleteTitle": "Delete User",
+    "deleteMessage": "Delete {{email}}?",
+    "passwordReset": "Password reset successfully",
+    "passwordResetFailed": "Failed to reset password"
+  },
+  "userDialog": {
+    "addTitle": "Add User",
+    "editTitle": "Edit User",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "role": "Role",
+    "create": "Create"
+  },
+  "auditLogs": {
+    "title": "Audit Logs",
+    "date": "Date",
+    "user": "User",
+    "action": "Action",
+    "details": "Details",
+    "from": "From",
+    "to": "To",
+    "all": "All",
+    "noData": "No audit logs found"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Manage duty schedules and notifications",
+    "employees": "Employees",
+    "duties": "Duties",
+    "onDutyToday": "On Duty Today",
+    "subscribers": "Subscribers",
+    "todayDuty": "Today's Duty",
+    "noTodayDuty": "No duties scheduled today",
+    "upcomingDuties": "Upcoming Duties",
+    "noUpcomingDuties": "No upcoming duties scheduled"
+  },
+  "changePassword": {
+    "title": "Change Password",
+    "oldPassword": "Old Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "change": "Change Password"
+  },
+  "resetPassword": {
+    "title": "Reset Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "reset": "Reset"
+  },
+  "conflictDialog": {
+    "title": "Schedule Conflict",
+    "message": "The following dates already exist:",
+    "replace": "Replace"
+  }
+}

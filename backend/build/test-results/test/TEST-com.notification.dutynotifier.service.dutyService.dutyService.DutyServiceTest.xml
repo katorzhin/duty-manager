@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.notification.dutynotifier.service.dutyService.dutyService.DutyServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-07-28T15:43:57.118Z" hostname="DESKTOP-28R49P9" time="0.401">
+  <properties/>
+  <testcase name="shouldCreateDutySuccessfully()" classname="com.notification.dutynotifier.service.dutyService.dutyService.DutyServiceTest" time="0.392"/>
+  <testcase name="shouldThrowUserNotFoundException()" classname="com.notification.dutynotifier.service.dutyService.dutyService.DutyServiceTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

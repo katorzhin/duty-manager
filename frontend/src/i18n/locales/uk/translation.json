@@ -1,0 +1,194 @@
+{
+  "common": {
+    "save": "Зберегти",
+    "cancel": "Скасувати",
+    "delete": "Видалити",
+    "filters": "Фільтри",
+    "date": "Дата",
+    "actions": "Дії",
+    "rowsPerPage": "Рядків на сторінці",
+    "from": "Від",
+    "to": "До"
+  },
+  "userMenu": {
+    "changePassword": "Змінити пароль",
+    "logout": "Вийти",
+    "passwordChanged": "Пароль успішно змінено",
+    "passwordChangeFailed": "Не вдалося змінити пароль"
+  },
+  "navigation": {
+    "dashboard": "Панель керування",
+    "employees": "Працівники",
+    "duties": "Чергування",
+    "upload": "Завантаження",
+    "notifications": "Сповіщення",
+    "users": "Користувачі",
+    "auditLogs": "Журнал аудиту"
+  },
+  "duties": {
+    "employees": "Працівники",
+    "title": "Графік чергувань",
+    "add": "Додати чергування",
+    "generate": "Згенерувати чергування",
+    "created": "Чергування успішно створено",
+    "updated": "Чергування успішно оновлено",
+    "deleted": "Чергування успішно видалено",
+    "createFailed": "Не вдалося створити чергування",
+    "deleteFailed": "Не вдалося видалити чергування",
+    "deleteTitle": "Видалити чергування",
+    "deleteMessage": "Видалити чергування на {{date}}?",
+    "noData": "Чергувань не знайдено"
+  },
+  "generateDuty": {
+    "title": "Генерація чергувань",
+    "startDate": "Дата початку",
+    "days7": "7 днів",
+    "days14": "14 днів",
+    "days30": "30 днів",
+    "custom": "Власний період",
+    "numberOfDays": "Кількість днів",
+    "employeesPerDuty": "Працівників на чергування",
+    "configureRotation": "Налаштувати ротацію",
+    "editRotation": "Редагувати ротацію ✓",
+    "generate": "Згенерувати"
+  },
+  "dutyDialog": {
+    "addTitle": "Додати чергування",
+    "editTitle": "Редагувати чергування",
+    "employees": "Працівники"
+  },
+
+  "rotationDialog": {
+    "title": "Налаштування ротації"
+  },
+
+  "employees": {
+    "title": "Працівники",
+    "name": "Ім'я",
+    "email": "Email",
+    "status": "Статус",
+    "add": "Додати працівника",
+    "created": "Працівника успішно створено",
+    "updated": "Працівника успішно оновлено",
+    "deleted": "Працівника успішно видалено",
+    "deleteTitle": "Видалити працівника",
+    "deleteMessage": "Видалити {{name}}?",
+    "noData": "Працівників не знайдено",
+    "deleteFailed": "Не вдалося видалити працівника"
+  },
+  "employeeDialog": {
+    "addTitle": "Додати працівника",
+    "editTitle": "Редагувати працівника",
+    "active": "Активний",
+    "inactive": "Неактивний"
+  },
+  "upload": {
+    "title": "Завантаження графіка",
+    "subtitle": "Завантажте Excel-файл із графіком чергувань.",
+    "chooseFile": "Обрати файл",
+    "upload": "Завантажити графік",
+    "uploading": "Завантаження...",
+    "uploadFailed": "Не вдалося завантажити графік",
+    "replaceFailed": "Не вдалося замінити графік"
+  },
+  "notifications": {
+    "title": "Сповіщення",
+    "subtitle": "Надішліть повідомлення всім підписникам Telegram.",
+    "message": "Повідомлення",
+    "characters": "символів",
+    "send": "Надіслати сповіщення",
+    "sendConfirm": "Надіслати",
+    "sendTitle": "Надіслати сповіщення",
+    "sendMessage": "Надіслати це повідомлення всім підписникам?",
+    "automatic": "Автоматичні сповіщення",
+    "templates": "Шаблони сповіщень",
+    "sent": "Сповіщення успішно надіслано",
+    "sendFailed": "Не вдалося надіслати сповіщення"
+  },
+  "notificationSettings": {
+    "title": "Автоматичні сповіщення",
+    "enabled": "Увімкнено",
+    "once": "Один раз",
+    "twice": "Два рази",
+    "firstNotification": "Перше сповіщення",
+    "secondNotification": "Друге сповіщення"
+  },
+  "notificationTemplates": {
+    "title": "Шаблони сповіщень",
+    "today": "Сьогодні",
+    "schedule": "Графік",
+    "todayTemplate": "Шаблон повідомлення на сьогодні",
+    "scheduleTemplate": "Шаблон графіка",
+    "nextDuties": "Наступні чергування"
+  },
+  "users": {
+    "title": "Користувачі",
+    "subtitle": "Керуйте користувачами системи.",
+    "add": "Додати користувача",
+    "email": "Email",
+    "role": "Роль",
+    "created": "Користувача успішно створено",
+    "updated": "Користувача успішно оновлено",
+    "deleted": "Користувача успішно видалено",
+    "saveFailed": "Не вдалося зберегти користувача",
+    "deleteFailed": "Не вдалося видалити користувача",
+    "deleteTitle": "Видалити користувача",
+    "deleteMessage": "Видалити {{email}}?",
+    "passwordReset": "Пароль успішно скинуто",
+    "passwordResetFailed": "Не вдалося скинути пароль"
+  },
+
+  "userDialog": {
+    "addTitle": "Додати користувача",
+    "editTitle": "Редагувати користувача",
+
+    "email": "Email",
+    "password": "Пароль",
+    "confirmPassword": "Підтвердіть пароль",
+    "role": "Роль",
+
+    "create": "Створити"
+  },
+
+  "auditLogs": {
+    "title": "Журнал аудиту",
+    "date": "Дата",
+    "user": "Користувач",
+    "action": "Дія",
+    "details": "Деталі",
+    "from": "Від",
+    "to": "До",
+    "all": "Усі",
+    "noData": "Записи аудиту не знайдено"
+  },
+  "dashboard": {
+    "title": "Панель керування",
+    "subtitle": "Керуйте графіками чергувань та сповіщеннями",
+    "employees": "Працівники",
+    "duties": "Чергування",
+    "onDutyToday": "Чергують сьогодні",
+    "subscribers": "Підписники",
+    "todayDuty": "Сьогодні чергують",
+    "noTodayDuty": "На сьогодні чергувань немає",
+    "upcomingDuties": "Наступні чергування",
+    "noUpcomingDuties": "Немає запланованих чергувань"
+  },
+  "changePassword": {
+    "title": "Змінити пароль",
+    "oldPassword": "Старий пароль",
+    "newPassword": "Новий пароль",
+    "confirmPassword": "Підтвердіть пароль",
+    "change": "Змінити пароль"
+  },
+  "resetPassword": {
+    "title": "Скидання пароля",
+    "newPassword": "Новий пароль",
+    "confirmPassword": "Підтвердіть пароль",
+    "reset": "Скинути"
+  },
+  "conflictDialog": {
+    "title": "Конфлікт графіка",
+    "message": "Наступні дати вже існують:",
+    "replace": "Замінити"
+  }
+}
