@@ -1,4 +1,3 @@
-#    token: 8863360818:AAFT-ZdAxUdEpJ6LQhrVvEZNce_ddHx2-BM
 spring:
 
   application:
@@ -21,10 +20,10 @@ spring:
     show-sql: true
 
 jwt:
-  secret: 1234567890123456789012345678901234567890123456789012345678901234
+  secret: ${JWT_SECRET}
   expiration: 86400000
 
 telegram:
   bot:
     username: DutyPluuuuus_bot
-    token: 8863360818:AAFT-ZdAxUdEpJ6LQhrVvEZNce_ddHx2-BM
+    token: ${TELEGRAM_BOT_TOKEN}
