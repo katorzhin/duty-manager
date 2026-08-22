@@ -202,6 +202,12 @@ public class DutyService {
         }
 
         dutyRepository.saveAll(duties);
+
+        auditLogService.log(
+                authenticatedUserService.getCurrentUserEmail(),
+                AuditAction.DUTIES_GENERATED,
+                DutyAuditMessages.generatedSchedule(duties)
+        );
     }
 
     private void validateGenerateRequest(GenerateDutyRequest request, LocalDate endDate) {

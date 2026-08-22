@@ -3,6 +3,7 @@ package com.notification.dutynotifier.entity.auditLog.messages;
 import com.notification.dutynotifier.entity.duty.Duty;
 import com.notification.dutynotifier.entity.employee.Employee;
 
+import java.util.List;
 import java.util.stream.Collectors;
 
 public final class DutyAuditMessages {
@@ -37,5 +38,12 @@ public final class DutyAuditMessages {
                 .stream()
                 .map(Employee::getName)
                 .collect(Collectors.joining(", "));
+    }
+
+    public static String generatedSchedule(List<Duty> duties) {
+        return "Generated duties:\n"
+                + duties.stream()
+                .map(DutyAuditMessages::format)
+                .collect(Collectors.joining("\n"));
     }
 }

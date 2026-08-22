@@ -23,7 +23,6 @@ public class NotificationSchedulerService {
     private ScheduledFuture<?> secondTask;
 
     public void reschedule(NotificationSettings settings) {
-        System.out.println("Reschedule");
         cancelTasks();
 
         if (!settings.isEnabled()) {
@@ -31,15 +30,12 @@ public class NotificationSchedulerService {
         }
 
         scheduleFirst(settings);
-        System.out.println("First notification scheduled: " + settings.getFirstNotificationTime());
         if (settings.getFrequency() == NotificationFrequency.TWICE) {
             scheduleSecond(settings);
-            System.out.println("Second notification scheduled: " + settings.getSecondNotificationTime());
         }
     }
 
     private void scheduleFirst(NotificationSettings settings) {
-        System.out.println("First cron: " + settings.getFirstNotificationTime());
         String cron = String.format(
                 "0 %d %d * * *",
                 settings.getFirstNotificationTime().getMinute(),
@@ -53,8 +49,6 @@ public class NotificationSchedulerService {
     }
 
     private void scheduleSecond(NotificationSettings settings) {
-        System.out.println("second cron: " + settings.getSecondNotificationTime());
-
         String cron = String.format(
                 "0 %d %d * * *",
                 settings.getSecondNotificationTime().getMinute(),

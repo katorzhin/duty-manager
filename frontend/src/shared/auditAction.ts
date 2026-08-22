@@ -73,5 +73,9 @@ export const auditActionMap: Record<string, {
         label: "Schedule Upload Failed",
         color: "warning",
     },
+    DUTIES_GENERATED: {
+        label: "Duties Generated",
+        color: "success",
+    },
 };
 
